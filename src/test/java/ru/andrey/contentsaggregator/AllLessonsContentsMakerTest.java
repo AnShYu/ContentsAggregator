@@ -1,12 +1,12 @@
 package ru.andrey.contentsaggregator;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 public class AllLessonsContentsMakerTest {
 
     @Test
-    public void testGetAllContents() {
-        Assert.assertEquals(1, 1);
+    public void testGetСontentsFromOneTxtFile() {
+        // Нужно ли тестировать этот метод? Создание файла с записью туда данных - сложная логика
+
     }
 }

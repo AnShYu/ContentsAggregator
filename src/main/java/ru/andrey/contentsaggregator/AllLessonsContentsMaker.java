@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.zip.DataFormatException;
 
 public class AllLessonsContentsMaker {
-    // Нужно ли тестировать этот метод?
+
     public Map<String, List<String>> getAllContents(List<Path> pathes) throws DataFormatException {
         if(pathes == null) {
             throw new DataFormatException();
