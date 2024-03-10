@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="809e56e9-c2b3-4de8-ae53-1b4eefd075b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/AllLessonsContentsMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/ContentsAggregatorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/ContentsWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/FoldersScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/UtilityDataKeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/contentsreaders/ContentsDocxReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/contentsreaders/ContentsFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/contentsreaders/ContentsTxtReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/exceptions/LackOfDataForWritingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/parsers/LessonNameParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/parsers/StringParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/AllLessonsContentsMakerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/FoldersScannerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/contentsreaders/ContentsDocxReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/contentsreaders/ContentsTxtReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/parsers/LessonNameParserTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dK3tqzDvj66iUSKdLfaM4Oo4X9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MI/IdeaProjects/ContentsAggregator&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.andrey.contentsaggregator.parsers" />
+      <recent name="ru.andrey.contentsaggregator.contentsreaders" />
+      <recent name="ru.andrey.contentsaggregator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FoldersScannerTest.testGetPathesToLessonsContents">
+    <configuration name="ContentsDocxReaderTest.testGetContentsFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContentsAggregator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.andrey.contentsaggregator.contentsreaders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator.contentsreaders" />
+      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.contentsreaders.ContentsDocxReaderTest" />
+      <option name="METHOD_NAME" value="testGetContentsFromFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoldersScannerTest.testGetPathesToLessonsContents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContentsAggregator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.andrey.contentsaggregator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator" />
+      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.FoldersScannerTest" />
+      <option name="METHOD_NAME" value="testGetPathesToLessonsContents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LessonNameParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContentsAggregator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.andrey.contentsaggregator.parsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator.parsers" />
+      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.parsers.LessonNameParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LessonNameParserTest.testIncorrectLessonNameParsing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContentsAggregator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.andrey.contentsaggregator.parsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator.parsers" />
+      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.parsers.LessonNameParserTest" />
+      <option name="METHOD_NAME" value="testIncorrectLessonNameParsing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LessonNameParserTest.testNullLessonNameParsing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContentsAggregator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.andrey.contentsaggregator.parsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator.parsers" />
+      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.parsers.LessonNameParserTest" />
+      <option name="METHOD_NAME" value="testNullLessonNameParsing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FoldersScannerTest.testGetPathesToLessonsContents" />
+        <item itemvalue="JUnit.ContentsDocxReaderTest.testGetContentsFromFile" />
+        <item itemvalue="JUnit.LessonNameParserTest" />
+        <item itemvalue="JUnit.LessonNameParserTest.testNullLessonNameParsing" />
+        <item itemvalue="JUnit.LessonNameParserTest.testIncorrectLessonNameParsing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="809e56e9-c2b3-4de8-ae53-1b4eefd075b0" name="Changes" comment="" />
+      <created>1709743162416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709743162416</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
