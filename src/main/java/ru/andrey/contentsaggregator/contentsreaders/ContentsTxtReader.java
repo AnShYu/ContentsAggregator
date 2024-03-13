@@ -15,11 +15,8 @@ public class ContentsTxtReader implements ContentsFileReader {
             throw new DataFormatException();
         }
 
-        List<String> contentsOfTheFile = Collections.emptyList();
+        List<String> contentsOfTheFile = new ArrayList<>();
         try(Scanner scanner = new Scanner(path)) {
-            if(scanner.hasNextLine()) {
-                contentsOfTheFile = new ArrayList<>();
-            }
             while(scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 contentsOfTheFile.add(line);

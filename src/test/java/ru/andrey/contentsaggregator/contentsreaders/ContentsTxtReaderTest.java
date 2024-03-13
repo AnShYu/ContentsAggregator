@@ -1,5 +1,6 @@
 package ru.andrey.contentsaggregator.contentsreaders;
 
+import junit.framework.TestCase;
 import org.apache.poi.EmptyFileException;
 import org.junit.Assert;
 import org.junit.Test;
@@ -11,19 +12,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.zip.DataFormatException;
 
-public class ContentsDocxReaderTest {
+public class ContentsTxtReaderTest {
 
     @Test
     public void testGetContentsFromCorrectFile() throws DataFormatException {
         String currentDirectory = System.getProperty("user.dir");
-        String testFilePath = currentDirectory + "\\src\\test\\resources" + "\\789123_Подходящее название Good name 1.docx";
+        String testFilePath = currentDirectory + "\\src\\test\\resources" + "\\123456_Подходящее название Good name 1.txt";
         Path path = Paths.get(testFilePath);
 
         List<String> excpectedList = new ArrayList<>();
-        excpectedList.add("DocX Test File 1 line 1" + "\n" + "DocX Test File 1 line 2" + "\n");
+        excpectedList.add("Txt Test File 1 Line 1");
+        excpectedList.add("Txt Test File 1 Line 2");
 
-        ContentsDocxReader cdxr = new ContentsDocxReader();
-        List<String> actualList = cdxr.getContentsFromFile(path);
+        ContentsTxtReader ctxtr = new ContentsTxtReader();
+        List<String> actualList = ctxtr.getContentsFromFile(path);
 
         Assert.assertEquals(excpectedList, actualList);
     }
@@ -31,11 +33,12 @@ public class ContentsDocxReaderTest {
     @Test(expected = EmptyFileException.class)
     public void testGetContentsFromEmptyFile() throws DataFormatException {
         String currentDirectory = System.getProperty("user.dir");
-        String testFilePath = currentDirectory + "\\src\\test\\resources" + "\\Empty DocxTest File.docx";
+        String testFilePath = currentDirectory + "\\src\\test\\resources" + "\\Empty TxtTest File.txt";
         Path path = Paths.get(testFilePath);
 
         ContentsDocxReader cdxr = new ContentsDocxReader();
         cdxr.getContentsFromFile(path);
+
     }
 
     @Test(expected = DataFormatException.class)
@@ -56,5 +59,4 @@ public class ContentsDocxReaderTest {
 //        ContentsDocxReader cdxr = new ContentsDocxReader();
 //        cdxr.getContentsFromFile(path);
 //    }
-
 }

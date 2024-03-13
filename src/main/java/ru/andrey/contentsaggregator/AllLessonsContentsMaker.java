@@ -14,8 +14,8 @@ import java.util.zip.DataFormatException;
 
 public class AllLessonsContentsMaker {
 
-    public Map<String, List<String>> getAllContents(List<Path> pathes) throws DataFormatException {
-        if(pathes == null) {
+    public Map<String, List<String>> getAllContents(List<Path> paths) throws DataFormatException {
+        if(paths == null) {
             throw new DataFormatException();
         }
 
@@ -23,15 +23,15 @@ public class AllLessonsContentsMaker {
         ContentsFileReader cr;
         StringParser sp = new LessonNameParser();
 
-        if(pathes.get(0).toString().endsWith(".txt")) {
+        if(paths.get(0).toString().endsWith(".txt")) {
             cr = new ContentsTxtReader();
-        } else if(pathes.get(0).toString().endsWith(".docx")) {
+        } else if(paths.get(0).toString().endsWith(".docx")) {
             cr = new ContentsDocxReader();
         } else {
             throw new DataFormatException();
         }
 
-        for(Path path: pathes) {
+        for(Path path: paths) {
             String lessonName = sp.getParsedString(path.toString());
             allContents.put(lessonName, cr.getContentsFromFile(path));
         }

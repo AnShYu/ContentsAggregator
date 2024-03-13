@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809e56e9-c2b3-4de8-ae53-1b4eefd075b0" name="Changes" comment="Contents Aggregator v.0.2" />
+    <list default="true" id="809e56e9-c2b3-4de8-ae53-1b4eefd075b0" name="Changes" comment="Contents Aggregator v.0.2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/ContentsWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/contentsreaders/ContentsTxtReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/123456_Подходящее название Good name 1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/123456_Подходящее название Good name 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/789123_Подходящее название Good name 1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/789123_Подходящее название Good name 2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DestinationFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Empty TxtTest File.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/AllLessonsContentsMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/AllLessonsContentsMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/ContentsAggregatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/ContentsAggregatorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/ContentsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/ContentsWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/contentsreaders/ContentsDocxReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/contentsreaders/ContentsDocxReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/contentsreaders/ContentsTxtReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/andrey/contentsaggregator/contentsreaders/ContentsTxtReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/AllLessonsContentsMakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/AllLessonsContentsMakerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/FoldersScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/FoldersScannerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/contentsreaders/ContentsDocxReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/andrey/contentsaggregator/contentsreaders/ContentsDocxReaderTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,23 +58,71 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MI/IdeaProjects/ContentsAggregator&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MI/IdeaProjects/ContentsAggregator/src/test/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MI\IdeaProjects\ContentsAggregator\src\test\resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.andrey.contentsaggregator" />
-      <recent name="ru.andrey.contentsaggregator.parsers" />
       <recent name="ru.andrey.contentsaggregator.contentsreaders" />
+      <recent name="ru.andrey.contentsaggregator.parsers" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FoldersScannerTest">
+    <configuration name="AllLessonsContentsMakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContentsAggregator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.andrey.contentsaggregator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator" />
+      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.AllLessonsContentsMakerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentsTxtReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContentsAggregator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.andrey.contentsaggregator.contentsreaders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator.contentsreaders" />
+      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.contentsreaders.ContentsTxtReaderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentsWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContentsAggregator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.andrey.contentsaggregator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator" />
+      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.ContentsWriterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FoldersScannerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ContentsAggregator" />
       <extension name="coverage">
@@ -72,66 +138,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoldersScannerTest.testGetNoPathesToNoCorrectFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LessonNameParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ContentsAggregator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.andrey.contentsaggregator.*" />
+          <option name="PATTERN" value="ru.andrey.contentsaggregator.parsers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator" />
-      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.FoldersScannerTest" />
-      <option name="METHOD_NAME" value="testGetNoPathesToNoCorrectFiles" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FoldersScannerTest.testGetPathesToLessonsContents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContentsAggregator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.andrey.contentsaggregator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator" />
-      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.FoldersScannerTest" />
-      <option name="METHOD_NAME" value="testGetPathesToLessonsContents" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FoldersScannerTest.testGetPathesToOneLessonsContents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContentsAggregator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.andrey.contentsaggregator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator" />
-      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.FoldersScannerTest" />
-      <option name="METHOD_NAME" value="testGetPathesToOneLessonsContents" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FoldersScannerTest.testGetPathesToTwoLessonsContents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ContentsAggregator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.andrey.contentsaggregator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator" />
-      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.FoldersScannerTest" />
-      <option name="METHOD_NAME" value="testGetPathesToTwoLessonsContents" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ru.andrey.contentsaggregator.parsers" />
+      <option name="MAIN_CLASS_NAME" value="ru.andrey.contentsaggregator.parsers.LessonNameParserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FoldersScannerTest" />
-        <item itemvalue="JUnit.FoldersScannerTest.testGetNoPathesToNoCorrectFiles" />
-        <item itemvalue="JUnit.FoldersScannerTest.testGetPathesToTwoLessonsContents" />
-        <item itemvalue="JUnit.FoldersScannerTest.testGetPathesToOneLessonsContents" />
-        <item itemvalue="JUnit.FoldersScannerTest.testGetPathesToLessonsContents" />
+        <item itemvalue="JUnit.ContentsWriterTest" />
+        <item itemvalue="JUnit.AllLessonsContentsMakerTest" />
+        <item itemvalue="JUnit.LessonNameParserTest" />
+        <item itemvalue="JUnit.ContentsTxtReaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710072363878</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Contents Aggregator v.0.2">
+      <created>1710072730726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710072730726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

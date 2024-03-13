@@ -1,6 +1,10 @@
 package ru.andrey.contentsaggregator;
 
+import ru.andrey.contentsaggregator.contentsreaders.ContentsFileReader;
+import ru.andrey.contentsaggregator.contentsreaders.ContentsTxtReader;
+
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
 import java.util.zip.DataFormatException;
@@ -10,7 +14,7 @@ public class ContentsAggregatorApp {
         //Нужно ли тестировать метод main?
         try{
             String rootFolder = UtilityData.FOLDERWITHLESSONS;
-//            String contentsFileName = UtilityDataKeeper.TXTSINGLELESSONCONTENTSFILENAME;
+//            String contentsFileName = UtilityData.TXTSINGLELESSONCONTENTSFILENAME;
             String contentsFileName = UtilityData.DOCXSINGLELESSONCONTENTSFILENAME;
             String destinationFileName = UtilityData.DESTINATIONFILE;
 

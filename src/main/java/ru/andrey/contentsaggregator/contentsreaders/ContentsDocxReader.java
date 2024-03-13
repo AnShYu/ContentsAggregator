@@ -22,15 +22,12 @@ public class ContentsDocxReader implements ContentsFileReader {
             throw new DataFormatException();
         }
 
-        List<String> contentsOfTheFile = Collections.emptyList();
+        List<String> contentsOfTheFile = new ArrayList<>();
 
         try (InputStream is = new FileInputStream(path.toFile()); XWPFDocument document = new XWPFDocument(OPCPackage.open(is));
         XWPFWordExtractor extractor = new XWPFWordExtractor(document)) {
             String docText = extractor.getText();
-            if(docText != null) {
-                contentsOfTheFile = new ArrayList<>();
-                contentsOfTheFile.add(docText);
-            }
+            contentsOfTheFile.add(docText);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (InvalidFormatException e) {
